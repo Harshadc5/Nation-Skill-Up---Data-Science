@@ -1,0 +1,10 @@
+# code is in python 3 language
+
+s = input() .strip()
+print(s)
+
+n=int(input())
+print(n+10)
+
+f= float(input())
+print(f*10)|
