@@ -1,0 +1,23 @@
+class Solution:
+    def boolean_operations(self, a, b) -> str:
+        if isinstance(a, bool):
+            a_bool = a
+        else:
+            a_bool = str(a).lower() == 'true'
+        
+        if isinstance(b, bool):
+            b_bool = b
+        else:
+            b_bool = str(b).lower() == 'true'
+        
+        logical_and = a_bool and b_bool
+        logical_or = a_bool or b_bool
+        logical_not = not a_bool
+        
+        result = [
+            'true' if logical_and else 'false',
+            'true' if logical_or else 'false',
+            'true' if logical_not else 'false'
+        ]
+        
+        return ' '.join(result)
