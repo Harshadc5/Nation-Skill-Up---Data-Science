@@ -1,0 +1,5 @@
+def printIncreasingPower(x):
+    n = 1
+    while n * n <= x:
+        print(n * n, end=" ")
+        n += 1
