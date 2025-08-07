@@ -1,0 +1,2 @@
+def decrementList(arr):
+return [x - 1 for x in arr]
