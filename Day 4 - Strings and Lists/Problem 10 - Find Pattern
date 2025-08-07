@@ -1,0 +1,9 @@
+def find_pattern(s, p):
+    len_p = len(p)
+    len_s = len(s)
+    if len_p == 0:
+        return 0
+    for i in range(len_s - len_p + 1):
+        if s[i:i+len_p] == p:
+            return i
+    return -1
