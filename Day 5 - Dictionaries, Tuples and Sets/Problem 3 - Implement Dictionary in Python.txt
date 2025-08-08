@@ -1,0 +1,20 @@
+keys = input() .split()
+values = list(map(int, input().split()))
+my_dict = dict(zip(keys, values))
+k, v = input() .split()
+
+my_dict[k] = int(v)
+print("Inserted")
+
+d = input()
+if d in my_dict:
+del my_dict[d]
+print("Deleted")
+else:
+print("-1")
+
+p = input()
+if p in my_dict:
+print("Marks of {} is {}" .format(p, my_dict[p]))
+else:
+print("-1")
