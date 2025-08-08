@@ -1,0 +1,12 @@
+def sequence(tup):
+if len(numbers) < 2:
+return numbers
+
+d = numbers[1] - numbers[0]
+last_term = numbers [-1]
+
+next_terms = [last_term + d* i for i in range (1, 4)]
+
+extended_sequence = numbers + tuple(next_terms)
+
+return extended_sequence
