@@ -1,0 +1,17 @@
+def setInsert(arr, n):
+S = set()
+for i in range(n):
+s.add(arr[i])
+return s
+
+def setDisplay(s):
+for val in sorted(s):
+print(val, end=" ")
+print()
+
+def setErase(s, x):
+if x in s:
+s.remove(x)
+print(f"erased {x}")
+else:
+print("not found")
