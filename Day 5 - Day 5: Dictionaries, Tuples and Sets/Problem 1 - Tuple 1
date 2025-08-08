@@ -1,2 +1,0 @@
-def doubleTup(numbers) :
-return tuple(x * 2 for x in numbers)
